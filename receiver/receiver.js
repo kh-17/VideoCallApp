@@ -80,6 +80,8 @@ function joinCall() {
                 type: "send_candidate",  // send candidate to the username
                 candidate: e.candidate
             })
+            
+            handleSignallingData()
         })
 
         sendData({
