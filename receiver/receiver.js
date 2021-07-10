@@ -77,7 +77,7 @@ function joinCall() {
                 return
             
             sendData({
-                type: "send_candidate",  // send candidate to the username
+                type: "send_candidate",  // send candidate to the server
                 candidate: e.candidate
             })
             
